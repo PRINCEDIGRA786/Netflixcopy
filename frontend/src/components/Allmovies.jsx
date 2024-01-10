@@ -14,7 +14,7 @@ export default function Allmovies(props) {
      const dataToPass =await {
         imdbid: c,
     };
-        navigate('#/page', { state: { data: dataToPass } })
+        navigate('/page', { state: { data: dataToPass } })
     }
     
     const containerRef = useRef(null);
