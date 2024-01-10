@@ -41,7 +41,7 @@ export default function Moviestate(props) {
     //     fetchfunction();
     // }, []);
 
-    const host = "http://localhost:5000"
+    const host = "https://netflixcopy-eight.vercel.app"
 
     const initiallist = []//for the intial lsit fetch
     const [list, setlist] = useState(initiallist);

@@ -14,7 +14,7 @@ export default function Signupplan() {
     const location = useLocation();
     const handleClick = async (e) => {
         e.preventDefault()
-        const response = await fetch("http://localhost:5000/api/auth/createuser", {
+        const response = await fetch("https://netflixcopy-eight.vercel.app/api/auth/createuser", {
             method: "POST", // *GET, POST, PUT, DELETE, etc.
             headers: {
                 "Content-Type": "application/json",

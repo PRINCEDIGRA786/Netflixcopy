@@ -8,7 +8,7 @@ export default function Login() {
     const handleClick=async(e)=>{
       e.preventDefault()
       // console.log("values dekhi",log.email,log.password)
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("https://netflixcopy-eight.vercel.app/api/auth/login", {
               method: "POST", // *GET, POST, PUT, DELETE, etc.
               headers: {
                   "Content-Type": "application/json",
