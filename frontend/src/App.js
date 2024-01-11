@@ -14,7 +14,7 @@ import Mylist from "./components/Mylist";
 function App() {
   return (
     <>
-    <h1 className="text-3xl text-black">this is chl rea bhau ji</h1>
+    
       <Moviestate>
         <BrowserRouter>
           <Routes>
