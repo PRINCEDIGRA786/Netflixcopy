@@ -7,12 +7,12 @@ import { Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  
 
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </Router>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
