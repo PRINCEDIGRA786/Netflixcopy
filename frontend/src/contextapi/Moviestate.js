@@ -18,7 +18,7 @@ export default function Moviestate(props) {
 
         try {
             const obj = await axios.request(options);
-            console.log(obj.data)
+            // console.log(obj.data)
 
             setresponse(obj.data.slice(0, 10))
 
