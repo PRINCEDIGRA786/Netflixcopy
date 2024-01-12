@@ -14,7 +14,7 @@ export default function Navbar(props) {
     const[email,setemail]=useState("");
     const[access,setaccess]=useState("")
     const handleClick=async()=>{
-        const response = await fetch("http://localhost:5000/api/auth/getuser", {
+        const response = await fetch("https://netflixcopy-oas4.vercel.app/api/auth/getuser", {
                 method: "POST", // *GET, POST, PUT, DELETE, etc.
                 headers: {
                     "Content-Type": "application/json",
