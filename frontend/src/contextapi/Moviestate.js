@@ -5,6 +5,7 @@ import axios from 'axios';
 // import response from '../data.json'
 
 export default function Moviestate(props) {
+    const[response,setresponse]=useState([]);
 
     const fetchfunction = async () => {
         const options = {
